@@ -13,11 +13,11 @@ local Level = 1
 local GlobalTweenInfo = TweenInfo.new(TweenTime)
 local AlteredTweenInfo = TweenInfo.new(TweenTime, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 
-local DropShadowID = "rbxassetid://297774371"
+local DropShadowID = "rbxassetid://3926307971"
 local DropShadowTransparency = 0.3
 
 local IconLibraryID = "rbxassetid://3926305904"
-local IconLibraryID2 = "rbxassetid://3926307971"
+local IconLibraryID2 = "rbxassetid://3926305904"
 
 local MainFont = Enum.Font.Gotham
 
@@ -124,7 +124,7 @@ local function TextButton(Text, Size)
 	NewTextButton.Text = Text
 	NewTextButton.AutoButtonColor = false
 	NewTextButton.Font = MainFont
-	NewTextButton.TextColor3 = Color3.fromRGB(255,255,255)
+	NewTextButton.TextColor3 = Color3.fromRGB(102, 153, 255)
 	NewTextButton.BackgroundTransparency = 1
 	NewTextButton.TextSize = Size or 12
 	NewTextButton.Size = UDim2.new(1,0,1,0)
