@@ -13,11 +13,11 @@ local Level = 1
 local GlobalTweenInfo = TweenInfo.new(TweenTime)
 local AlteredTweenInfo = TweenInfo.new(TweenTime, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 
-local DropShadowID = "rbxassetid://3926307971"
+local DropShadowID = "rbxassetid://3926305904"
 local DropShadowTransparency = 0.3
 
 local IconLibraryID = "rbxassetid://3926305904"
-local IconLibraryID2 = "rbxassetid://3926305904"
+local IconLibraryID2 = "rbxassetid://3926307971"
 
 local MainFont = Enum.Font.Gotham
 
